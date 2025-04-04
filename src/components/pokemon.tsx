@@ -49,7 +49,7 @@ function Pokemon({
           Search
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-1">
+      <div className="grid lg:grid-cols-3 gap-1 md:grid-cols-2 grid-cols-1">
         {filteredPokemon?.pokemon.map((pm) => (
           <PokemonCard key={pm.pokemon.name} pokemon={pm} />
         ))}
