@@ -17,7 +17,7 @@ function PokemonCard({ pokemon }: { pokemon: PokemonDetail }) {
           loading="lazy"
         />
       </div>
-      <div className="bg-gray-200 flex flex-col h-[120px] justify-between p-4">
+      <div className="bg-gray-200 flex flex-col  justify-between p-4">
         <div>
           <span className="font-medium">Name: </span>
           <span>{pokemon.name}</span>
